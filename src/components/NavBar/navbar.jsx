@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./navbar.module.css";
-import iconCV from "../../Imagenes/iconCV.png";
+import iconCV from "../../../Imagenes/iconCV.png";
 export default function Navbar() {
   return (
     <div className={s.divPrincipal}>

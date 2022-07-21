@@ -1,8 +1,8 @@
 import React from "react";
 import s from "./Proyects.module.css";
 import Cards from "../Card/Cards";
-import PI from "../../Imagenes/PI-FOOD.png";
-import PF from "../../Imagenes/RGB-STORE.png";
+import PI from "../../../Imagenes/PI-FOOD.png";
+import PF from "../../../Imagenes/RGB-STORE.png";
 export default function Proyects() {
   return (
     <>

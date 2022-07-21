@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PC from "../../Imagenes/pngegg.png";
+import PC from "../../../Imagenes/pngegg.png";
 import s from "./welcome.module.css";
 import { useTypewriter } from "react-simple-typewriter";
 import { FaLinkedin, FaGithub } from "react-icons/fa";

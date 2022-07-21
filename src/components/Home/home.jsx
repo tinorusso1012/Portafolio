@@ -6,7 +6,7 @@ import Aboutme from "../AboutMe/aboutme";
 import Proyects from "../Proyects/Proyects";
 import Skills from "../MySkills/Skills";
 import Contact from "../Contact/Contact";
-import iconCV from "../../Imagenes/iconCV.png";
+import iconCV from "../../../Imagenes/iconCV.png";
 
 export default function Home() {
   return (

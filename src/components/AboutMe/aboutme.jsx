@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./aboutme.module.css";
-import yo from "../../Imagenes/IMG_20210616_143409_996.jpg";
+import yo from "../../../Imagenes/IMG_20210616_143409_996.jpg";
 export default function Aboutme() {
   return (
     <div className={s.divPrincipal}>
