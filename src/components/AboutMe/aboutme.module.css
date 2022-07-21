@@ -1,0 +1,92 @@
+.divPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 25px;
+    gap: 5.5rem;
+}
+.divImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    border: solid black;
+    width: 15rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 90%;
+
+}
+.divWrite{
+    grid-column: 2 / 4;
+    grid-row: 2/3;
+    margin: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+.Write{
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight:300;
+    color: rgb(0, 0, 0);
+}
+.divAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.todojunto{
+    width: 60%;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    cursor: pointer;
+    background: #fff; /* color de fondo */
+    color: #000000; /* color de fuente */
+    border: 2px solid #000000; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn:hover{
+    color: #fff; /* color de fuente hover */
+}
+
+.btn::after{
+    content: "";
+  background: #000000; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.btn:hover::after{
+    left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}

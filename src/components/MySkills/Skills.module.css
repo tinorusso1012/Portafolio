@@ -1,0 +1,54 @@
+.DivPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.divTitle{
+    margin: 50px;
+}
+.skills a{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+.back{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.other{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.front img{
+    margin: 10px;
+}
+.back img{
+    margin: 10px;
+}
+.other img{
+    margin: 10px;
+}
+
+.front img:hover{
+    transform: scale(1.5)
+}
+.back img:hover{
+    transform: scale(1.5)
+}
+.other img:hover{
+    transform: scale(1.5)
+}

@@ -1,0 +1,15 @@
+.divPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divProyects{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.text{
+    font-size: 3rem;
+}

@@ -1,0 +1,30 @@
+.divPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    margin-bottom: 100px;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.contacto a{
+    text-decoration: none !important;
+    list-style: none !important;
+    margin: 10px;
+}
+.contacto img{
+    margin: 10px;
+}
+
+.contacto img:hover{
+    transform: scale(1.5)
+}
+
+
