@@ -24,7 +24,13 @@ export default function Aboutme() {
             and committed to my tasks, and easy to adapt to new work teams.
           </h4>
           <div className={s.botones}>
-            <button className={s.btn}>View Resume</button>
+          <a
+              className={s.icono}
+              href="https://drive.google.com/drive/folders/1QkvMnpCfEDhLdh52GYizlEWV6N3spDe2?usp=sharing"
+              target="_blank"
+            >
+              <button className={s.btn}>View Resume</button>
+            </a>
             <button className={s.btn}>View Certificate</button>
           </div>
         </div>

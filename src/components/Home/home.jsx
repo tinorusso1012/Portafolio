@@ -16,8 +16,13 @@ export default function Home() {
       {/* Comienzo nav */}
 
       <div className={s.divPrincipal}>
-        <img className={s.icono} src={iconCV} />
-        <nav>
+      <a
+          className={s.icono}
+          href="https://drive.google.com/drive/folders/1QkvMnpCfEDhLdh52GYizlEWV6N3spDe2?usp=sharing"
+          target="_blank"
+        >
+          <img className={s.img} src={iconCV} />{" "}
+        </a>
           <ul className={s.ulNav}>
             <li>
               <a href="#Welcome" className={s.NavGo}>
