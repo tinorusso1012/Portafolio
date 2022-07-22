@@ -16,13 +16,14 @@ export default function Home() {
       {/* Comienzo nav */}
 
       <div className={s.divPrincipal}>
-      <a
+        <a
           className={s.icono}
           href="https://drive.google.com/drive/folders/1QkvMnpCfEDhLdh52GYizlEWV6N3spDe2?usp=sharing"
           target="_blank"
         >
           <img className={s.img} src={iconCV} />{" "}
         </a>
+        <nav>
           <ul className={s.ulNav}>
             <li>
               <a href="#Welcome" className={s.NavGo}>
