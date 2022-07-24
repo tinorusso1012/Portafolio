@@ -13,3 +13,17 @@
 .text{
 
 }
+
+
+
+@media (max-width: 768px) {
+
+    .divPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}

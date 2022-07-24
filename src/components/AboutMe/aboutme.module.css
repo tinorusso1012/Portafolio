@@ -90,3 +90,134 @@
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
 }
+.divAboutResponsive{
+    display: none;
+}
+.divImagenResponsive{
+    display: none;
+}
+.botonesResponsive{
+    display:none;
+}
+.divWriteResponsive{
+    display: none;
+}
+.WriteResponsive{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .divPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        gap: 5.5rem;
+    }
+    .divAboutResponsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .divAboutResponsive{
+    }
+    .btnResponsive{
+        display: flex;
+        cursor: pointer;
+        background: #fff; /* color de fondo */
+        color: #000000; /* color de fuente */
+        /* tamaño y color de borde */
+        padding: 16px 20px;
+        border-radius: 3px; /* redondear bordes */
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: inline-block;
+        -moz-box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
+-webkit-box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
+box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
+    }
+    .botonesResponsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .iconoResponsive{
+    }
+    .divWriteResponsive{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+      justify-content: center;
+     align-items: center;
+    }
+    .divWriteResponsive2{
+        margin: 15px;
+        border:solid;
+        padding: 15px;
+         border-color: rgb(104, 104, 104);
+    }
+    .WriteResponsive{
+        display: contents;
+        font-size: 1rem;
+        margin: 5px;
+        font-weight:300;
+        color: rgb(0, 0, 0);
+    }
+
+
+
+
+    .divImagenResponsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .imagenResponsive{
+        border: solid black;
+        width: 10rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 30%;
+    
+    }
+    .divImagen{
+        display: none;
+    }
+    .divWrite{
+        display: none;
+
+    }
+    .Write{
+        display: none;
+
+    }
+    .divAbout{
+        display: none;
+    }
+    .todojunto{
+        width: 60%;
+    }
+    
+    
+    .botones{
+        display: none;
+
+    }
+    
+    .btn{
+        display: none;
+
+    }
+    
+
+}

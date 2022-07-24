@@ -52,3 +52,95 @@
 .other img:hover{
     transform: scale(1.5)
 }
+
+
+.DivPrincipalResponsive{
+    display: none;
+
+}
+.divTitleResponsive{
+    display: none;
+}
+.skillsResponsive{
+    display: none;
+}
+.frontResponsive{
+    display: none;
+}
+.backResponsive{
+    display: none;
+}
+.otherResponsive{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .DivPrincipal{
+        display: none;
+    }
+    .divTitle{
+        display: none;
+    }
+    .skills{
+        display: none;
+    }
+    .front{
+        display: none;
+    }
+    .back{
+        display: none;
+    }
+    .other{
+        display: none;
+    }
+
+    .DivPrincipalResponsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .divTitleResponsive{
+        display: flex;
+    }
+    .skillsResponsive{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+    }
+    .frontResponsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .frontResponsive h2{
+        font-size: 1rem;
+    }
+    .backResponsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .backResponsive h2{
+        font-size: 1.1rem;
+    }
+    .otherResponsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .otherResponsive h2{
+        font-size: 1.1rem;
+    }
+    
+}

@@ -23,7 +23,7 @@ export default function ({ img, title, tech, text1, text2, link }) {
             <div>
               <img src={img} className={s.image} />
             </div>
-            <div>
+            <div className={s.divText}>
               <h3 className={s.text}>{text1}</h3>
               <h3 className={s.text}>{text2}</h3>
             </div>

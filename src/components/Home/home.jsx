@@ -23,7 +23,7 @@ export default function Home() {
         >
           <img className={s.img} src={iconCV} />{" "}
         </a>
-        <nav>
+        <nav className={s.NavDiv}>
           <ul className={s.ulNav}>
             <li>
               <a href="#Welcome" className={s.NavGo}>
@@ -107,6 +107,7 @@ export default function Home() {
       <br />
       <br />
       <br />
+
       <br id="Contact" />
       <Contact />
     </div>
