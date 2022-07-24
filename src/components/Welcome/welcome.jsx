@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PC from "../../Imagenes/pngegg.png";
-import Phone from "../../Imagenes/";
+import Phone from "../../Imagenes/Phone.png";
 
 import s from "./welcome.module.css";
 import { useTypewriter } from "react-simple-typewriter";
@@ -92,7 +92,7 @@ function Welcome() {
               <SiGmail className={s.UnicIconResponsive} />
             </a>
           </div>
-          </div>
+        </div>
       </div>
     </>
   );
