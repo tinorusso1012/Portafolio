@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PC from "../../Imagenes/pngegg.png";
-import Phone from "../../Imagenes/Phone.png";
+import Phone from "../../Imagenes/";
 
 import s from "./welcome.module.css";
 import { useTypewriter } from "react-simple-typewriter";
