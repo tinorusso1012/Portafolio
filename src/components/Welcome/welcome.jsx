@@ -92,7 +92,7 @@ function Welcome() {
               <SiGmail className={s.UnicIconResponsive} />
             </a>
           </div>
-        </div>
+          </div>
       </div>
     </>
   );

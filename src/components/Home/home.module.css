@@ -135,6 +135,9 @@ overflow-x:hidden;
             background-color:  rgb(255, 255, 255,0.4);
             display: flex;
             flex-direction: column;
+            position:static;
+            padding: 15px;
+            margin-bottom: 15px;
         }
         .icono{
         display: none;

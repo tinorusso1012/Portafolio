@@ -53,6 +53,7 @@ export default function Home() {
           </ul>
         </nav>
       </div>
+      <br />
       {/* Fin Nav */}
       <br id="Welcome" />
       <Welcome />

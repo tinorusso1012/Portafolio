@@ -8,7 +8,6 @@
   padding: 7rem;
   /* position: relative; */
   margin-top: 0px !important;
-
 }
 
 .imagePhone{
@@ -109,6 +108,8 @@ font-size: 3rem;
     top: 0;
     width: 80vh;
     height: 80vh;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .divText{
     grid-row: 2/4;
