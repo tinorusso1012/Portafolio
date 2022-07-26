@@ -50,7 +50,7 @@ export default function Proyects() {
         <Cards
           title={"Netflix-Clone"}
           img={TinoFlix}
-          link={"https://netflix-clone-tinorusso1012.vercel.app/"}
+          link={"https://netflix-clone-tinorusso1012.vercel.app/login"}
           tech={[
             "react",
             "Redux",
