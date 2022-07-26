@@ -3,6 +3,7 @@ import s from "./Proyects.module.css";
 import Cards from "../Card/Cards";
 import PI from "../../Imagenes/PI-FOOD.png";
 import PF from "../../Imagenes/RGB-STORE.png";
+import TinoFlix from "../../Imagenes/TinoFlix.png";
 export default function Proyects() {
   return (
     <>
@@ -45,6 +46,23 @@ export default function Proyects() {
           ]}
           text1={"Group Proyect of SoyHenry's bootcamp "}
           text2={"It is an e-commerce for the sale of computer products."}
+        />
+        <Cards
+          title={"Netflix-Clone"}
+          img={TinoFlix}
+          link={"https://netflix-clone-tinorusso1012.vercel.app/"}
+          tech={[
+            "react",
+            "Redux",
+            "JavaScript",
+            "CSS",
+            "MaterialUI",
+            "Nodejs",
+            "Firebase",
+            "RestApi",
+          ]}
+          text1={"Individual project to practice"}
+          text2={"It is a clone of the famous  Netflix application."}
         />
       </div>
     </>
