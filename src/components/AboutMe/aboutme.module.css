@@ -5,6 +5,10 @@
     width: 100%;
     border-radius: 25px;
     gap: 5.5rem;
+    background-color: #40e44b3e;
+    box-shadow: -5px 5px 5px #aaa;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 .divImagen{
     display: flex;
@@ -12,11 +16,10 @@
     align-items: center;
 }
 .imagen{
-    border: solid black;
-    width: 15rem;
+    width: 18rem;
     margin-top: 30px;
     margin-bottom: 30px;
-    border-radius: 90%;
+    border-radius: 25px;
 
 }
 .divWrite{
@@ -64,12 +67,12 @@
 }
 
 .btn:hover{
-    color: #fff; /* color de fuente hover */
+    color: rgb(0, 0, 0); /* color de fuente hover */
 }
 
 .btn::after{
     content: "";
-  background: #000000; /* color de fondo hover */
+  background: #75fda7;/* color de fondo hover */
   position: absolute;
   z-index: -1;
   padding: 16px 20px;
@@ -79,7 +82,7 @@
   left: -100%;
   right: 100%;
   -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+  transition: all 0.45s;
 }
 
 .btn:hover::after{
@@ -88,7 +91,7 @@
   top: 0;
   bottom: 0;
   -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+  transition: all 0.45s;
 }
 .divAboutResponsive{
     display: none;

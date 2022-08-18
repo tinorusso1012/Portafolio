@@ -21,10 +21,97 @@
 }
 .contacto img{
     margin: 10px;
+    transition: transform .2s;
 }
 
 .contacto img:hover{
     transform: scale(1.5)
+}
+
+
+.divForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: solid;
+    padding: 2.5rem;
+    border-radius: 25px;
+    background-color: #40e44b52;
+}
+.divforminterno{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 15px;
+}
+.divButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    cursor: pointer;
+    background: #fff; /* color de fondo */
+    color: #000000; /* color de fuente */
+    border: 2px solid #000000; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn:hover{
+    color: rgb(0, 0, 0); /* color de fuente hover */
+}
+
+.btn::after{
+    content: "";
+  background: #75fda7;/* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.45s;
+}
+
+.btn:hover::after{
+    left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.45s;
+}
+
+.divforminterno input{
+    width: 70%;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.371);
+    border: solid;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+
+.divforminterno textarea{
+    width: 70%;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.371);
+    border: solid;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 110%;
+    height: 150px;
 }
 
 
